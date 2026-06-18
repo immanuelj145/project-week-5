@@ -17,3 +17,25 @@
 4. SMSService — implements the NotificationMedium to send text notifications
 5. WhatsAppService — implements the NotificationMedium to send WA notifications
 6. EmailService: implements the NotificationMedium to send email notifications
+
+### Example Output
+Starting Alert System
+
+[EmailService] Sending Email: Email notification example 1 
+[EmailService] Sending Email: Email notification example 2
+
+Switching Notification Medium 
+[SMSService] Sending SMS: SMS notification example 1 
+[SMSService] Sending SMS: SMS notification example 2
+
+[WhatsApp] Sending WhatsApp: WhatsApp notification example 1 
+[WhatsApp] Sending WhatsApp: WhatsApp notification example 2
+
+Session Message Log
+
+Email notification example 1
+Email notification example 2
+SMS notification example 1
+SMS notification example 2
+WhatsApp notification example 1
+WhatsApp notification example 2
